@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save/Vocabulary" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save/Vocabulary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/FileManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/FileManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/JsonHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/JsonHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test/RefTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test/RefTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test/reftext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Test/reftext.cs" afterDir="false" />
-    </list>
+    <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +19,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test/reftext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/2022/Projekt/Vokabelspiel/Assets/Scripts/DataManagement/DataManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Dictionary/DictionaryManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656429773414</updated>
       <workItem from="1656429984913" duration="17574000" />
-      <workItem from="1656468441021" duration="1161000" />
+      <workItem from="1656468441021" duration="1464000" />
     </task>
     <servers />
   </component>

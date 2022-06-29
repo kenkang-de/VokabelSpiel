@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class DictionaryManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static DictionaryManager instance;
     void Awake()
     {
-     DictionaryModel.LoadVocabulary();
+        if (instance == null)
+            instance = this;
+        else
+        {
+            Destroy(this);
+        }
+        DontDestroyOnLoad(this);
+        DictionaryModel.LoadVocabulary();
     }
 }
