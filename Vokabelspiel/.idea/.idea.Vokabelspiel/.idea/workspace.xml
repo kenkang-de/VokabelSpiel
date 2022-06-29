@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="" />
+    <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save/Vocabulary" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save/Vocabulary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +57,7 @@
       <updated>1656429773414</updated>
       <workItem from="1656429984913" duration="17574000" />
       <workItem from="1656468441021" duration="1464000" />
+      <workItem from="1656504092617" duration="770000" />
     </task>
     <servers />
   </component>

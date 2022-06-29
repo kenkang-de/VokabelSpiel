@@ -20,9 +20,9 @@ public class VocaComponent : MonoBehaviour
     {
         _vocabulary = DictionaryModel.vocabularies[index];
     }
-    public void SetVoca()
+    public void SetVoca(string word)
     {
-        _vocabulary.word = text.text;
+        _vocabulary.word = word;
         DictionaryModel.SaveVocabulary();
     }
 
