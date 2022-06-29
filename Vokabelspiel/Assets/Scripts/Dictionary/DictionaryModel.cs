@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,9 +7,13 @@ public static class DictionaryModel
 {
     public static List<Vocabulary> vocabularies = new List<Vocabulary>();
     
-    //ToDo Load Vocabulary from Json
+    //Load Vocabulary from Json
+    public static void LoadVocabulary()
+    {
+        vocabularies = FileManager<Vocabulary>.Load();
+    }
     
-    //ToDo Save Vocabulary to Json
+    //Save Vocabulary to Json
     public static void SaveVocabulary()
     {
         FileManager<Vocabulary>.Save(vocabularies);
@@ -33,7 +38,7 @@ public static class DictionaryModel
     }
     
 }
-
+[Serializable]
 public class Vocabulary
 {
     public string word;

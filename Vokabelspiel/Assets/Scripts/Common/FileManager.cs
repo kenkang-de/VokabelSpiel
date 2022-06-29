@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.Serialization.Json;
+using Newtonsoft.Json;
 using UnityEngine;
 
 public static class FileManager<T>
@@ -12,16 +14,16 @@ public static class FileManager<T>
 
     public static void Save(List <T> list)
     {
-        string serialized = JsonHelper.ToJson(list.ToArray());
+        string serialized = JsonConvert.SerializeObject(list);
         File.WriteAllText(FindPath(typeof(T).ToString()),serialized);
     }
 
-    /*public static Dictionary<Tkey,TValue> Load()
+    public static List<T> Load()
     {
-        string serialized = File.ReadAllText(FindPath(typeof(TValue).ToString()));
-        Dictionary<Tkey,TValue> dictionary=SerializabeDictionary<Tkey,TValue>.Deserialize(serialized);
-        return dictionary; 
-    }*/
+        string serialized = File.ReadAllText(FindPath(typeof(T).ToString()));
+        List<T> list = JsonConvert.DeserializeObject<List<T>>(serialized);
+        return list; 
+    }
 
     static string FindPath(string fileName)
     {
