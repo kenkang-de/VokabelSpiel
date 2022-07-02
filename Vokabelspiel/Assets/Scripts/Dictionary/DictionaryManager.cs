@@ -5,6 +5,10 @@ using UnityEngine;
 public class DictionaryManager : MonoBehaviour
 {
     public static DictionaryManager instance;
+    
+    [SerializeField] private GameObject UI_VocaSet;
+    [SerializeField] private Transform UI_VocaSetParent;
+    
     void Awake()
     {
         if (instance == null)
@@ -14,6 +18,15 @@ public class DictionaryManager : MonoBehaviour
             Destroy(this);
         }
         DontDestroyOnLoad(this);
+        
         DictionaryModel.LoadVocabulary();
+        SetVocaUI();
+    }
+
+
+    public void SetVocaUI()
+    {
+        foreach (Vocabulary vocabulary in DictionaryModel.vocabularies)
+            Instantiate(UI_VocaSet,UI_VocaSetParent);
     }
 }

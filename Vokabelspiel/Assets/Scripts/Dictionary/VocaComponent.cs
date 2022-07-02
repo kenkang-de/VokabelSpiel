@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class VocaComponent : MonoBehaviour
@@ -29,5 +30,18 @@ public class VocaComponent : MonoBehaviour
     public void DisplayWord(string voca)
     {
         text.text = voca;
+    }
+
+    public void Select(BaseEventData eventData)
+    {
+        if (eventData.selectedObject == this.gameObject)
+            {
+                eventData.selectedObject = null;
+            }
+    }
+
+    public void Click()
+    {
+        
     }
 }
