@@ -8,18 +8,18 @@ using UnityEngine.UIElements;
 
 public class MySelectable : MonoBehaviour
 {
-    [SerializeField]private Color normalColor;
-    [SerializeField]private Color selectedColor;
+    [SerializeField] private Color normalColor;
+    [SerializeField] private Color selectedColor;
 
     private Graphic _graphic;
-    
+
     public bool _isSelected;
 
     void Start()
     {
         _graphic = GetComponent<Graphic>();
     }
-    
+
     public void SelectToggle(MySelectable mySelectable)
     {
         if (!mySelectable._isSelected)
@@ -33,6 +33,13 @@ public class MySelectable : MonoBehaviour
             _graphic.color = normalColor;
         }
     }
-
-
+    
+   
+    
+    
+    
 }
+
+
+
+

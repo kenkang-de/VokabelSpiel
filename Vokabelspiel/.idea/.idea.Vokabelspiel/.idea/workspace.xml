@@ -6,22 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI_Vocabulary.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI_Vocabulary.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/germany.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/germany.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/south-korea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/south-korea.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/united-kingdom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/united-kingdom.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/united-states.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Flags/united-states.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save/Vocabulary" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save/Vocabulary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +36,6 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://F:/2022/Projekt/Vokabelspiel/Assets/Scripts/DataManagement/DataManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://F:/2022/Projekt/Vokabelspiel/Assets/Scripts/Common/UI/MySelectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2017c5b5260a470bafd641b1e95ffc6139400/2c/cf3b908f/IPointerClickHandler.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -85,6 +70,7 @@
       <workItem from="1656504092617" duration="1368000" />
       <workItem from="1656599224130" duration="17811000" />
       <workItem from="1656772241213" duration="884000" />
+      <workItem from="1656888082888" duration="4287000" />
     </task>
     <servers />
   </component>
