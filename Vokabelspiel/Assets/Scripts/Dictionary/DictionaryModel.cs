@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using MyBox;
 using UnityEngine;
 
 public static class DictionaryModel
 {
     public static List<Vocabulary> vocabularies = new List<Vocabulary>();
+    public static Vocabulary selectedVocabulary;
     
     //Load Vocabulary from Json
     public static void LoadVocabulary()
@@ -53,7 +55,3 @@ public class Vocabulary
     }
 }
 
-public enum Language
-{
-    KOR,DE,EN
-}

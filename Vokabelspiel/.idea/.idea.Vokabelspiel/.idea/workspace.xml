@@ -6,9 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Data/RainbowFoldersRuleset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Data/RainbowFoldersRuleset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/delete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/edit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/search.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Save/Vocabulary" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save/Vocabulary" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +46,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ColorBlock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/OnEnableUnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/047c393df074421f9f0330fa11a5b6bb3ca00/58/8a24f383/ISelectable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/Language.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryStateChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/LanguageModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SelectableEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/MyBox-master/MyBox-master/Extensions/MyColor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,7 +62,10 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/LanguageSelectUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/OnDisableUnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2017c5b5260a470bafd641b1e95ffc6139400/2c/cf3b908f/IPointerClickHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryActivateComponent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,6 +100,9 @@
       <workItem from="1656599224130" duration="17811000" />
       <workItem from="1656772241213" duration="884000" />
       <workItem from="1656888082888" duration="4287000" />
+      <workItem from="1657029703190" duration="3110000" />
+      <workItem from="1657056558611" duration="6841000" />
+      <workItem from="1657110301713" duration="9330000" />
     </task>
     <servers />
   </component>
