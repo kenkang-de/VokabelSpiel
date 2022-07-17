@@ -5,32 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32874b64-55f5-4155-bbe8-89b73be1211b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/EditVocaComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vokabelspiel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Data/RainbowFoldersRuleset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RainbowAssets/RainbowFolders/Editor/Data/RainbowFoldersRuleset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/delete.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/edit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/search.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Buttons/x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/LanguageSelection/Btn_Language.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/LanguageSelection/Btn_Language.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet_ADD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet_ADD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet_DISPLAY.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_VocaSet_DISPLAY.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary_DISPLAY.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary_DISPLAY.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary_EDIT.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary_EDIT.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary_EDIT.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Dictionary/UI_Vocabulary_EDIT.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Save/Vocabulary" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Save/Vocabulary" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dictionary.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/MySelectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/MySelectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryActivateComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryActivateComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MySelectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryStateChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryStateChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/LanguageSelectUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/LanguageSelectUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +44,19 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/047c393df074421f9f0330fa11a5b6bb3ca00/58/8a24f383/ISelectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/Language.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryStateChanger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/LanguageModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/EditVocaComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SelectableEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/SubAddVocaComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/MyBox-master/MyBox-master/Extensions/MyColor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/VocaComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/DictionaryConditionalStateChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/373946aef99e4cf29a4263b23aa7a8c16600/23/fe5acb3f/UISystemProfilerApi.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dictionary/LanguageSelectUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/OnDisableUnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,6 +99,23 @@
       <workItem from="1657029703190" duration="3110000" />
       <workItem from="1657056558611" duration="6841000" />
       <workItem from="1657110301713" duration="9330000" />
+      <workItem from="1657140011344" duration="5229000" />
+      <workItem from="1657148770696" duration="2739000" />
+      <workItem from="1657196172754" duration="3722000" />
+      <workItem from="1657209461933" duration="688000" />
+      <workItem from="1657281107811" duration="1178000" />
+      <workItem from="1657301023999" duration="1101000" />
+      <workItem from="1657317400110" duration="2437000" />
+      <workItem from="1657366000019" duration="5972000" />
+      <workItem from="1657544457309" duration="10271000" />
+      <workItem from="1657573525122" duration="6163000" />
+      <workItem from="1657583326544" duration="2700000" />
+      <workItem from="1657632392930" duration="9262000" />
+      <workItem from="1657654007238" duration="4903000" />
+      <workItem from="1657815501226" duration="1005000" />
+      <workItem from="1657921905600" duration="817000" />
+      <workItem from="1657929830322" duration="5117000" />
+      <workItem from="1658015492825" duration="8692000" />
     </task>
     <servers />
   </component>

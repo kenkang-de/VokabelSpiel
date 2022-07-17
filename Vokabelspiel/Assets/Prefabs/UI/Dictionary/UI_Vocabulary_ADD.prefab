@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5252494853102127543}
   - component: {fileID: 3803660741791869101}
   - component: {fileID: 3238934717406056495}
-  - component: {fileID: 1274267979686119410}
   m_Layer: 5
   m_Name: InputfieldOutline
   m_TagString: Untagged
@@ -62,7 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -78,21 +77,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1274267979686119410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5157632256216443110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34be06fafdd37c9429ff79319f1c0b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 8880815537681786706}
-  flag: {fileID: 2999703046309316291}
-  index: 0
 --- !u!1 &8530850193323599803
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,8 +89,9 @@ GameObject:
   - component: {fileID: 6486127528203432859}
   - component: {fileID: 5037973990463143452}
   - component: {fileID: 2999703046309316291}
+  - component: {fileID: 5420595389926779915}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn_Language
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -212,7 +197,44 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5037973990463143452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1333415638746466721}
+        m_TargetAssemblyTypeName: VocaComponent, Assembly-CSharp
+        m_MethodName: SelectVocabulary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5420595389926779915}
+        m_TargetAssemblyTypeName: DictionaryStateChanger, Assembly-CSharp
+        m_MethodName: ChangeState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5420595389926779915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8530850193323599803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d809d6c6457b64998e8398ee49690f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dictionaryState: 3
 --- !u!1 &8880815536826319804
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,8 +324,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8880815537064994669}
   - component: {fileID: 3860531924630813346}
+  - component: {fileID: 1333415638746466721}
   m_Layer: 5
-  m_Name: UI_Vocabulary_DISPLAY
+  m_Name: UI_Vocabulary_ADD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &3860531924630813346
@@ -337,6 +360,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8880815537064994668}
   m_CullTransparentMesh: 1
+--- !u!114 &1333415638746466721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880815537064994668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f08f85e1ad93546a15fd0f9857584a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SubAddPrefab: {fileID: 8880815537064994668, guid: 29aba61957c96e2438fb2da9d8c37337, type: 3}
 --- !u!1 &8880815537681786719
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -468,7 +504,7 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1274267979686119410}
+      - m_Target: {fileID: 1333415638746466721}
         m_TargetAssemblyTypeName: VocaComponent, Assembly-CSharp
         m_MethodName: SetVoca
         m_Mode: 0

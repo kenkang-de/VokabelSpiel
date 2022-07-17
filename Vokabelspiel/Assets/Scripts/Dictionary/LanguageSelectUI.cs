@@ -9,7 +9,7 @@ public class LanguageSelectUI : MonoBehaviour
 
   public void SelectLanguage()
   {
-    DictionaryModel.selectedVocabulary.language = language;
+    DictionaryModel.selectedVocaComponent.SetLangauge(language); 
   }
 
 }

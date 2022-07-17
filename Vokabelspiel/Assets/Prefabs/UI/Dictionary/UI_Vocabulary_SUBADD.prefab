@@ -61,7 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -89,8 +89,9 @@ GameObject:
   - component: {fileID: 6486127528203432859}
   - component: {fileID: 5037973990463143452}
   - component: {fileID: 2999703046309316291}
+  - component: {fileID: 1615514908964204652}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn_Language
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -196,7 +197,44 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5037973990463143452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4870489219995070969}
+        m_TargetAssemblyTypeName: VocaComponent, Assembly-CSharp
+        m_MethodName: SelectVocabulary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1615514908964204652}
+        m_TargetAssemblyTypeName: DictionaryStateChanger, Assembly-CSharp
+        m_MethodName: ChangeState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1615514908964204652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8530850193323599803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d809d6c6457b64998e8398ee49690f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dictionaryState: 3
 --- !u!1 &8880815536826319804
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,9 +324,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8880815537064994669}
   - component: {fileID: 3860531924630813346}
-  - component: {fileID: 2026169107484149012}
+  - component: {fileID: 4870489219995070969}
   m_Layer: 5
-  m_Name: UI_Vocabulary_EDIT
+  m_Name: UI_Vocabulary_SUBADD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +360,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8880815537064994668}
   m_CullTransparentMesh: 1
---- !u!114 &2026169107484149012
+--- !u!114 &4870489219995070969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -331,10 +369,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8880815537064994668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc8458980b24c3e4cb238d4c80635fc1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f772699ba753fc43bd6b8b03400a2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  relationPrefab: {fileID: 8880815537064994668, guid: 02d525aeac8a1a9488aad9dfff95297d, type: 3}
 --- !u!1 &8880815537681786719
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -466,7 +503,7 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2026169107484149012}
+      - m_Target: {fileID: 4870489219995070969}
         m_TargetAssemblyTypeName: VocaComponent, Assembly-CSharp
         m_MethodName: SetVoca
         m_Mode: 0

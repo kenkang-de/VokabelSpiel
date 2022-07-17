@@ -1,46 +1,64 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
+using Button = UnityEngine.UI.Button;
 
-public class VocaComponent : MonoBehaviour
+public abstract class VocaComponent :MonoBehaviour
 {
-    [SerializeField] InputField text;
-    [SerializeField] private Button flag;
+    protected InputField text;
+    protected Button flag;
+    
+    protected Vocabulary _vocabulary;
+    protected LanguageModel _languageModel;
 
-    [SerializeField] private int index;
-
-    Vocabulary _vocabulary;
-    private LanguageModel _languageModel;
-    void Start()
+    public abstract void Start();
+    public abstract void Initiate();
+    
+    void Awake()
     {
+        flag = GetComponentInChildren<Button>();
+        text = GetComponentInChildren<InputField>();
+    }
+
+    public Vocabulary GetVocabulary()
+    {
+        return _vocabulary;
+    }
+
+    public void SetVocabulary(Vocabulary vocabulary)
+    {
+        _vocabulary = vocabulary;
+    }
+
+    public void ClearVocaComponent()
+    {
+        if(GetType()==typeof(SubAddVocaComponent))
+            Destroy(gameObject);
         Initiate();
-        DisplayWord(_vocabulary.word);
-        DisplayLanguage(_vocabulary.language);
+        Refresh();
     }
-    void Initiate()
-    {
-        _vocabulary = DictionaryModel.vocabularies[index];
-        _languageModel = FindObjectOfType<LanguageModel>();
-    }
-
+    
+    public void FindLanguageModel()=> _languageModel = FindObjectOfType<LanguageModel>();
+    
     public void SelectVocabulary()
     {
-        DictionaryModel.selectedVocabulary = _vocabulary;
+        DictionaryModel.selectedVocaComponent = this;
     }
 
     public void SetVoca(string word)
     {
         _vocabulary.word = word;
         DictionaryModel.SaveVocabulary();
+        Refresh();
     }
 
     public void SetLangauge(Language language)
     {
         _vocabulary.language = language;
         DictionaryModel.SaveVocabulary();
+        Refresh();
     }
 
     public void DisplayWord(string voca)
@@ -53,6 +71,39 @@ public class VocaComponent : MonoBehaviour
         flag.image.sprite=_languageModel.flags[language];
     }
     
+    public void Refresh()
+    {
+        if (_vocabulary == null)
+            return;
+        DisplayWord(_vocabulary.word);
+        DisplayLanguage(_vocabulary.language); 
+    }
     
+    public abstract void Confirm();
+
+    public void OnEnable()
+    {
+        DictionaryManager.CofirmEvent += Confirm;
+    }
+
+    public void OnDisable()
+    {
+        DictionaryManager.CofirmEvent -= Confirm;
+    }
+
+
+    public abstract bool ConditionCheck();
     
+    public enum Condition {Empty}
+
+    protected string ConditionMessage(Condition condition)
+    {
+        switch (condition)
+        {
+            case Condition.Empty:
+                return "Can't have blanks.";
+        }
+
+        return "Error 00";
+    }
 }

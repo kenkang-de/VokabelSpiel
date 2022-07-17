@@ -1,1 +1,1 @@
-[{"word":"qqqq","language":1,"relatedVocabularies":null}]
+[{"word":"배","language":1,"relatedVocabularies":["Birne"]},{"word":"Birne","language":2,"relatedVocabularies":["배"]},{"word":"Trödel","language":2,"relatedVocabularies":["고물상"]},{"word":"고물상","language":1,"relatedVocabularies":["Trödel"]}]
